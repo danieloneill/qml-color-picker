@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick
 
 Item {
     id: slider
@@ -50,7 +50,7 @@ Item {
     MouseArea {
         id: mouseArea
         anchors.fill: parent
-        onMousePositionChanged: slider.mousePositionChanged()
+        onPositionChanged: slider.mousePositionChanged()
         z: 1
     }
 }

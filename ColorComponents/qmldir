@@ -1,0 +1,3 @@
+module org.astorije.ColorComponents
+plugin ColorComponents
+typeinfo plugins.qmltypes

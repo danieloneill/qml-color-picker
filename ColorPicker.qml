@@ -1,4 +1,6 @@
-import QtQuick 1.1
+import QtQuick
+import org.astorije.ColorComponents
+
 import "components"
 
 Rectangle {
@@ -529,8 +531,8 @@ Rectangle {
 
             maximumLength: 9
 
-            validator: RegExpValidator{
-                regExp: /#?[0-9a-fA-F]*/
+            validator: RegularExpressionValidator{
+                regularExpression: /#?[0-9a-fA-F]*/
             }
 
             onTextChanged: {

@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick
 
 Item {
     width:  orientation === Qt.Vertical ?
@@ -33,7 +33,6 @@ Item {
 
         Rectangle {
             id: rect
-            color: "transparent"
             width:    orientation === Qt.Vertical ? parent.width  : parent.height
             height:   orientation === Qt.Vertical ? parent.height : parent.width
             x:        orientation === Qt.Vertical ? 0 : height / 2 - width / 2
